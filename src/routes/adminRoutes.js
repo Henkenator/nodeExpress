@@ -6,13 +6,15 @@ const debug = require('debug')('app:adminRoutes');
 const adminRouter = express.Router();
 const books = [
     {
-        title: 'obladi',
+        title: 'War and Peace',
+        bookId: 656,
         genre: 'action',
         author: 'Joe',
         read: false
     },
     {
-        title: 'nippetippan',
+        title: 'Les Miserables',
+        bookId: 24280,
         genre: 'drama',
         author: 'Nisse',
         read: true
